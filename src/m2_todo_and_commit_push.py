@@ -1,5 +1,6 @@
 print('Hello, World')
 print('yes')
+print(3607*34227)
 ###############################################################################
 #
 #   This line is a COMMENT -- a note to human readers of this file.
@@ -81,7 +82,7 @@ print('yes')
 #   (HINT: It is an INTERESTING number.)  Get help if your value is wrong.
 #
 ###############################################################################
-print(3607*34227)
+
 ###############################################################################
 #
 # DONE
