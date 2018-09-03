@@ -48,7 +48,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving, *click anywhere in the window to close it*.
 #
@@ -82,7 +82,8 @@ window.delay(20)  # Bigger numbers mean slower animation.
 # The next few lines show how to:
 #   - CONSTRUCT (make) a  SimpleTurtle  object and ASSIGN a NAME to the object.
 # -----------------------------------------------------------------------------
-boris = rg.SimpleTurtle()
+boris = rg.SimpleTurtle('turtle')
+boris.pen = rg.Pen('blue', 15)
 
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
@@ -99,19 +100,21 @@ boris.forward(200)
 #     set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
 # -----------------------------------------------------------------------------
 natasha = rg.SimpleTurtle('turtle')
-natasha.pen = rg.Pen('red', 30)  # Second argument is the Pen's thickness
+natasha.pen = rg.Pen('red', 15)  # Second argument is the Pen's thickness
 natasha.speed = 10  # Faster
 
 natasha.backward(50)
 natasha.right(90)
 natasha.forward(50)
+natasha.left(20)
+natasha.forward(40)
 
 natasha.speed = 1  # Now slower
 natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE
 #   Add a few more lines of your own code to make one of the
 #   existing SimpleTurtles move some more and/or have different
 #   characteristics.
@@ -125,7 +128,7 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -149,10 +152,18 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
+rosie = rg.SimpleTurtle('turtle')
+rosie.pen = rg.Pen('green', 15)  # Second argument is the Pen's thickness
+rosie.speed = 3  # Faster
 
+rosie.forward(50)
+rosie.left(90)
+rosie.backward(50)
+rosie.right(20)
+rosie.backward(40)
 ###############################################################################
 #
-# TODO: 6.
+# DONE
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
