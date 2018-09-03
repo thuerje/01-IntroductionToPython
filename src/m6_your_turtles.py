@@ -27,6 +27,7 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 #
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 ###############################################################################
+
 import rosegraphics as rg
 window = rg.TurtleWindow
 
