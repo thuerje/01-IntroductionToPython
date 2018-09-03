@@ -33,11 +33,11 @@ window = rg.TurtleWindow
 
 ben = rg.SimpleTurtle('turtle')
 ben.pen = rg.Pen('grey',1)
-ben.speed = 80
+ben.speed = 100
 
 jerry = rg.SimpleTurtle('turtle')
 jerry.pen = rg.Pen('maroon',1)
-jerry.speed = 80
+jerry.speed = 100
 
 size1 = 5
 size2 = 3
